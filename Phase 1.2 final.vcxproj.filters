@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{f0f53a6e-ce06-42ba-900f-86341aafcbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Troop Lists">
+      <UniqueIdentifier>{d15c703c-238b-4072-9b4b-8d675d569f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input Reader">
+      <UniqueIdentifier>{0c26b9f2-0813-4d55-8812-0c1fab66d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Generator">
+      <UniqueIdentifier>{ec4004a0-0507-4bff-a8eb-ff2e25b833ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth_Soldiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth_Tank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESQueue.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="ETStack.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="EGPriQueue.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth_Gunners.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien_Soldier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASQueue.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien_Monsters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AMArray.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien_Drones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ADSPECIALQ.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal_Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUStack.cpp">
+      <Filter>Troop Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthArmy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienArmy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="priNode.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="priQueue.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth_Soldiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth_Tank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESQueue.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="ETStack.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="EGPriQueue.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth_Gunners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien_Soldier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASQueue.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien_Monsters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AMArray.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayofPointers.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien_Drones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSPECIALQ.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleInfo.h">
+      <Filter>Input Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="InputReader.h">
+      <Filter>Input Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGen.h">
+      <Filter>Random Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal_Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUStack.h">
+      <Filter>Troop Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthArmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienArmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateNewFileName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
